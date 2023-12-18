@@ -365,7 +365,7 @@
                       \addcontentsline{toc}{chapter}{#1}%
                     \fi
                     \chaptermark{#1}%
-                    \addtocontents{lof}{\protect\addvspace{0\p@}}%
+                    \addtocontents{lof}{\protect\addvspace{\p@}}%
                     \addtocontents{lot}{\protect\addvspace{0\p@}}%
                     \if@twocolumn
                       \@topnewpage[\@makechapterhead{#2}]%
@@ -539,7 +539,7 @@
 \def\fps@figure{tbp}
 \def\ftype@figure{1}
 \def\ext@figure{lof}
-\def\fnum@figure{\figurename\nobreakspace\thefigure}
+\def\fnum@figure{\figurename\thefigure} % Removiendo el espacio entre Figura y el numero
 \newenvironment{figure}
                {\@float{figure}}
                {\end@float}
@@ -552,7 +552,7 @@
 \def\fps@table{tbp}
 \def\ftype@table{2}
 \def\ext@table{lot}
-\def\fnum@table{\tablename\nobreakspace\thetable}
+\def\fnum@table{\tablename\thetable}
 \newenvironment{table}
                {\@float{table}}
                {\end@float}
@@ -562,7 +562,7 @@
 \newlength\abovecaptionskip
 \newlength\belowcaptionskip
 \setlength\abovecaptionskip{10\p@}
-\setlength\belowcaptionskip{0\p@}
+\setlength\belowcaptionskip{10\p@}
 \long\def\@makecaption#1#2{%
   \vskip\abovecaptionskip
   \sbox\@tempboxa{#1: #2}%
@@ -585,7 +585,7 @@
 \newcommand\@pnumwidth{1.55em}
 \newcommand\@tocrmarg{2.55em}
 \newcommand\@dotsep{4.5}
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{2} %Para determinar la profundidad del indice
 \newcommand\tableofcontents{%
     \if@twocolumn
       \@restonecoltrue\onecolumn
@@ -733,12 +733,12 @@
 \newenvironment{dedication}
   {\clearpage           % Nueva página
    \thispagestyle{empty}% No encabezados ni pie de página
-   \vspace*{\stretch{8}}% some space at the top 
-   \itshape             % Texto en cursiva (italica)
-   \raggedleft          % flush to the right margin
+   %\vspace*{\stretch{8}}% some space at the top 
+   %\itshape             % Texto en cursiva (italica)
+   %\raggedleft          % flush to the right margin
   }
   {\par % end the paragraph
-   \vspace{\stretch{0.6}} % space at bottom is three times that at the top
+   %\vspace{\stretch{0.6}} % space at bottom is three times that at the top
    \clearpage           % Termina la página
   }
  
@@ -812,34 +812,35 @@
 
 
 %---------------- ENCABEZADOS Y PIE DE PÁGINA --------------------
-\usepackage[left=4 cm,right=3 cm,top=3 cm,bottom=3.5 cm]{geometry}
+\usepackage{geometry}
+\geometry{top=4 cm,left=4 cm,right=2.5 cm,bottom=2.5 cm}% Aqui se ajustan los márgenes, este iba antes que el comando del preambulo
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 
-\renewcommand{\headrulewidth}{0.5 pt}
-\renewcommand{\footrulewidth}{0.5 pt}
+\renewcommand{\headrulewidth}{0 pt}
+\renewcommand{\footrulewidth}{0 pt}
 
 
-\lhead[]{\textit{\scriptsize UNIVERSIDAD NACIONAL DE INGENIERÍA \\ \scriptsize{\@facultad}}}
+%\lhead[]{\textit{\scriptsize UNIVERSIDAD NACIONAL DE INGENIERÍA \\ \scriptsize{\@facultad}}}
 \rhead[]{\textit{\scriptsize \leftmark}}
 
-\lfoot[]{\textit{\scriptsize {\@title} \\ Bach. {\@author}}}
+%\lfoot[]{\textit{\scriptsize {\@title} \\ Bach. {\@author}}}
 \rfoot[]{\small \thepage}
 %---------------------------------------
 
 
 \fancypagestyle{plain}{
 \fancyhf{}
-\renewcommand{\headrulewidth}{0.5 pt}
-\renewcommand{\footrulewidth}{0.5 pt}
+\renewcommand{\headrulewidth}{0 pt}
+\renewcommand{\footrulewidth}{0 pt}
 
 
-\lhead[]{\textit{\scriptsize UNIVERSIDAD NACIONAL DE INGENIERÍA \\ \scriptsize {\@facultad}}}
+%\lhead[]{\textit{\scriptsize UNIVERSIDAD NACIONAL DE INGENIERÍA \\ \scriptsize {\@facultad}}}
 \rhead[]{\textit{\scriptsize \leftmark}}
 
 
-\lfoot[]{\textit{\scriptsize {\@title} \\ Bach. {\@author}}}
+%\lfoot[]{\textit{\scriptsize {\@title} \\ Bach. {\@author}}}
 \rfoot[]{\small \thepage}
 }
 %----------------------------------------------

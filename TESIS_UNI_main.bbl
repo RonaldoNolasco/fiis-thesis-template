@@ -1,241 +1,180 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Berquist%
-, DePasquale%
-, Frye%
-, Gilani%
-\BCBL {}\ \BBA {} Klembczyk%
+Jagan Mohan~Reddy%
+, Regella%
+\BCBL {}\ \BBA {} Seelam%
 }{%
-Berquist%
+Jagan Mohan~Reddy%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2019}}%
+{\protect \APACyear {2020}}%
 }]{%
-Taylor2019}
+9276955}
 \APACinsertmetastar {%
-Taylor2019}%
+9276955}%
 \begin{APACrefauthors}%
-Berquist, M.%
-, DePasquale, R.%
-, Frye, S.%
-, Gilani, A.%
-\BCBL {}\ \BBA {} Klembczyk, A.%
+Jagan Mohan~Reddy, D.%
+, Regella, S.%
+\BCBL {}\ \BBA {} Seelam, S\BPBI R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2019}.
+\APACrefYearMonthDay{2020}{}{}.
 \newblock
-\APACrefbtitle {{Fluid viscous dampers-general guidelines for engineers
-  including a brief history}} {{Fluid viscous dampers-general guidelines for
-  engineers including a brief history}}.
+{\BBOQ}\APACrefatitle {Recruitment Prediction using Machine Learning}
+  {Recruitment prediction using machine learning}.{\BBCQ}
 \newblock
-\APACaddressPublisher{}{Taylor Devices Inc}.
+\BIn{} \APACrefbtitle {2020 5th International Conference on Computing,
+  Communication and Security (ICCCS)} {2020 5th international conference on
+  computing, communication and security (icccs)}\ (\BPG~1-4).
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1109/ICCCS49678.2020.9276955}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICCCS49678.2020.9276955} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Bridgestone%
+Jantawan%
+\ \BBA {} Tsai%
 }{%
-Bridgestone%
+Jantawan%
+\ \BBA {} Tsai%
 }{%
-{\protect \APACyear {2015}}%
+{\protect \APACyear {2013}}%
 }]{%
-Bridgestone2015}
+arxiv2013}
 \APACinsertmetastar {%
-Bridgestone2015}%
+arxiv2013}%
 \begin{APACrefauthors}%
-Bridgestone.%
+Jantawan, B.%
+\BCBT {}\ \BBA {} Tsai, C\BHBI F.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2015}{}{}.
+\APACrefYearMonthDay{2013}{}{}.
 \newblock
-\APACrefbtitle {{Seismic isolation product line-up}} {{Seismic isolation
-  product line-up}}\ (\BVOL~1).
+\APACrefbtitle {The Application of Data Mining to Build Classification Model
+  for Predicting Graduate Employment.} {The application of data mining to build
+  classification model for predicting graduate employment.}
 \newblock
-\APACaddressPublisher{Tokio}{}.
+\APACaddressPublisher{}{arXiv}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/1312.7123} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.48550/ARXIV.1312.7123} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Charalampakis%
+Mishra%
+, Mallick%
+, Tripathy%
+, Jena%
+\BCBL {}\ \BBA {} Chae%
 }{%
-Charalampakis%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-Charalampakis2010}
-\APACinsertmetastar {%
-Charalampakis2010}%
-\begin{APACrefauthors}%
-Charalampakis, A\BPBI E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Parameters of Bouc-Wen hysteretic model revisited}}
-  {{Parameters of Bouc-Wen hysteretic model revisited}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Proceedings of the 9h HSTAM International Congress on
-  Mechanics}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Chopra%
-}{%
-Chopra%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-Chopra2016}
-\APACinsertmetastar {%
-Chopra2016}%
-\begin{APACrefauthors}%
-Chopra, A\BPBI K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2016}.
-\newblock
-\APACrefbtitle {{Dynamics of structures: Theory and applications to earthquake
-  engineering}} {{Dynamics of structures: Theory and applications to earthquake
-  engineering}}\ (\PrintOrdinal{5th}\ \BEd).
-\newblock
-\APACaddressPublisher{NJ, USA}{Prentice Hall}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Constantinou%
-\ \BBA {} Symans%
-}{%
-Constantinou%
-\ \BBA {} Symans%
-}{%
-{\protect \APACyear {1993}}%
-}]{%
-Constantinou1993}
-\APACinsertmetastar {%
-Constantinou1993}%
-\begin{APACrefauthors}%
-Constantinou, M\BPBI C.%
-\BCBT {}\ \BBA {} Symans, M\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1993}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Experimental study of seismic response of buildings
-  with supplemental fluid dampers}} {{Experimental study of seismic response of
-  buildings with supplemental fluid dampers}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{The Structural Design of Tall
-  Buildings}{2}{2}{93--132}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Fenz%
-\ \BBA {} Constantinou%
-}{%
-Fenz%
-\ \BBA {} Constantinou%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-Fenz2008}
-\APACinsertmetastar {%
-Fenz2008}%
-\begin{APACrefauthors}%
-Fenz, D\BPBI M.%
-\BCBT {}\ \BBA {} Constantinou, M\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2008}.
-\newblock
-\APACrefbtitle {{Mechanical behavior of multi-spherical sliding bearings}}
-  {{Mechanical behavior of multi-spherical sliding bearings}}.
-\newblock
-\APACaddressPublisher{}{Multidisciplinary Center for Earthquake Engineering
-  Research}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Naeim%
-\ \BBA {} Kelly%
-}{%
-Naeim%
-\ \BBA {} Kelly%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-Kelly1999}
-\APACinsertmetastar {%
-Kelly1999}%
-\begin{APACrefauthors}%
-Naeim, F.%
-\BCBT {}\ \BBA {} Kelly, J\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1999}.
-\newblock
-\APACrefbtitle {{Design of seismic isolated structures: from theory to
-  practice}} {{Design of seismic isolated structures: from theory to
-  practice}}.
-\newblock
-\APACaddressPublisher{}{John Wiley \& Sons}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Skinner%
-, Robinson%
-\BCBL {}\ \BBA {} McVerry%
-}{%
-Skinner%
+Mishra%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {1993}}%
+{\protect \APACyear {2021}}%
 }]{%
-Skinner1993}
+StackedKNN}
 \APACinsertmetastar {%
-Skinner1993}%
+StackedKNN}%
 \begin{APACrefauthors}%
-Skinner, R\BPBI I.%
-, Robinson, W\BPBI H.%
-\BCBL {}\ \BBA {} McVerry, G\BPBI H.%
+Mishra, S.%
+, Mallick, P\BPBI K.%
+, Tripathy, H\BPBI K.%
+, Jena, L.%
+\BCBL {}\ \BBA {} Chae, G\BHBI S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1993}.
+\APACrefYearMonthDay{2021}{}{}.
 \newblock
-\APACrefbtitle {{An introduction to seismic isolation}} {{An introduction to
-  seismic isolation}}.
+{\BBOQ}\APACrefatitle {Stacked KNN with hard voting predictive approach to
+  assist hiring process in IT organizations} {Stacked knn with hard voting
+  predictive approach to assist hiring process in it organizations}.{\BBCQ}
 \newblock
-\APACaddressPublisher{}{John Wiley \& Sons}.
+\APACjournalVolNumPages{The International Journal of Electrical Engineering \&
+  Education}{}{}{0020720921989015}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/0020720921989015}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0020720921989015} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Wu%
-}{%
-Wu%
-}{%
-{\protect \APACyear {2001}}%
+Pessach%
+\ \protect \BOthers {.}}{%
+Pessach%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
 }]{%
-Wu2001}
+PESSACH2020113290}
 \APACinsertmetastar {%
-Wu2001}%
+PESSACH2020113290}%
 \begin{APACrefauthors}%
-Wu, T\BPBI C.%
+Pessach, D.%
+, Singer, G.%
+, Avrahami, D.%
+, {Chalutz Ben-Gal}, H.%
+, Shmueli, E.%
+\BCBL {}\ \BBA {} Ben-Gal, I.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2001}.
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Employees recruitment: A prescriptive analytics approach
+  via machine learning and mathematical programming} {Employees recruitment: A
+  prescriptive analytics approach via machine learning and mathematical
+  programming}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Decision Support Systems}{134}{}{113290}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.dss.2020.113290}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.dss.2020.113290} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roy%
+, Roopkanth%
+, Teja%
+, Bhavana%
+\BCBL {}\ \BBA {} Priyanka%
+}{%
+Roy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+IJET11738}
+\APACinsertmetastar {%
+IJET11738}%
+\begin{APACrefauthors}%
+Roy, K\BPBI S.%
+, Roopkanth, K.%
+, Teja, V\BPBI U.%
+, Bhavana, V.%
+\BCBL {}\ \BBA {} Priyanka, J.%
+\end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefbtitle {{Design of base isolation system for buildings}} {{Design of
-  base isolation system for buildings}}\ \APACtypeAddressSchool {Master
-  thesis}{}{}.
-\unskip\
+\APACrefYearMonthDay{2018}{}{}.
 \newblock
-\APACaddressSchool {Cambridge}{Massachusetts Institute of Technology}.
+{\BBOQ}\APACrefatitle {Student Career Prediction Using Advanced Machine
+  Learning Techniques} {Student career prediction using advanced machine
+  learning techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Engineering \&
+  Technology}{7}{2.20}{26--29}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencepubco.com/index.php/ijet/article/view/11738}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14419/ijet.v7i2.20.11738} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -1,4 +1,3 @@
-
 \documentclass[11pt,a4paper,oneside,english,spanish]{TesisUNI}
 
 \input{0_0_PREAMBULO/Preambulo}
@@ -20,32 +19,31 @@
 	\include{1_2_DEDICATORIA/Dedicatoria}
 	
 	\include{1_3_AGRADECIMIENTOS/Agradecimientos}
-	
-	
-	%Cambiar nombre y crear ÍNDICE
-	\singlespacing 
-	\renewcommand\contentsname{\centering ÍNDICE }
-	\tableofcontents	
-	\onehalfspacing
-	
 
 	\include{1_4_RESUMEN/Resumen}
 		
 	\include{1_5_ABSTRACT/Abstract}
 
-	\include{1_6_PROLOGO/Prologo} 
+	\include{1_6_PROLOGO/Prologo}
 	
 	
-	%Cambiar nombre, crear ÍNDICE DE FIGURAS Y TABLAS
-	
-	\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
-	\renewcommand\listtablename{\centering LISTA DE TABLAS}
+	%Cambiar nombre y crear ÍNDICE
+	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{ÍNDICE}
+	\renewcommand\contentsname{ÍNDICE}
+	\vspace*{3.25cm} % Equivalente a los 4cm
+	\tableofcontents
 
-	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listtablename}
-	{\normalsize\listoftables}
-		
-	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listfigurename}
-	{\normalsize\listoffigures}
+	% Lista de tablas
+	\renewcommand\listtablename{LISTA DE TABLAS} % Renombra el titulo de la lista de figuras
+	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE TABLAS} % Inserta el registro en el índice
+	%\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
+	\listoftables % Añade el espaciado e inserta la lista de tablas
+
+	% Lista de figuras
+	\renewcommand\listfigurename{LISTA DE FIGURAS} % Renombra el titulo de la lista de figuras
+	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE FIGURAS} % Inserta el registro en el índice
+	%\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
+	\listoffigures % Añade el espaciado e inserta la lista de figuras
 	
 	\include{1_7_SIMBOLOS/Simbolos}
  
@@ -54,21 +52,25 @@
 	
 	\mainmatter 
 
-	% INTRODUCCIÓN
+	% PROBLEMÁTICA
 	\include{2_CAPITULO1/Capitulo1}
 	
-	% FUNDAMENTO TEÓRICO Y CONCEPTUAL
-	\include{2_CAPITULO2/Capitulo2}	
+	% MARCO TEÓRICO
+	\include{2_CAPITULO2/Capitulo2}
 		
-	% CAPÍTULO 3
+	% ESTADO DEL ARTE
 	\include{2_CAPITULO3/Capitulo3}
 		
 	% CAPÍTULO 4
 	\include{2_CAPITULO4/Capitulo4}
-		
+
+	% CAPÍTULO 5
+	\include{2_CAPITULO5/Capitulo5}
+
+	% CAPÍTULO 6
+	\include{2_CAPITULO6/Capitulo6}
 	
 	%Parte FINAL DE LA TESIS
-	
 	\backmatter
 
 	% CONCLUSIONES
