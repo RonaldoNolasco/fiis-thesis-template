@@ -60,22 +60,22 @@
 
 %Code listing style named "mystyle"
 \lstdefinestyle{mystyle}{
-  backgroundcolor=\color{backcolour},  
-  commentstyle=\color{codegreen},
-  keywordstyle=\color{codeRojo},
-  numberstyle=\tiny\color{codegray},
-  stringstyle=\color{codepurple},
-  basicstyle=\footnotesize,
-  breakatwhitespace=false,         
-  breaklines=true,                 
-  captionpos=b,                    
-  keepspaces=true,                 
-  numbers=left,                    
-  numbersep=5pt,                  
-  showspaces=false,                
-  showstringspaces=false,
-  showtabs=false,                  
-  tabsize=2
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codeRojo},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
 }
 
 %"mystyle" code listing set
@@ -84,7 +84,6 @@
 \newenvironment{MyFont}{\fontfamily{ugm}\selectfont}{\par}
 
 \usepackage{changepage} %Agregar espacio a Listing
-
 
 
 % Centrado del título del ÍNDICE / LISTA DE FIGURAS / LISTA DE CUADROS
@@ -137,13 +136,13 @@
 
 % Posicionamiento vertical de TOC, LOT and LOF
 
-\setlength{\cftbeforelottitleskip}{1pt} 
+\setlength{\cftbeforelottitleskip}{1pt}
 \renewcommand{\cftafterlottitleskip}{12pt}
 
-\setlength{\cftbeforeloftitleskip}{1pt} 
+\setlength{\cftbeforeloftitleskip}{1pt}
 \renewcommand{\cftafterloftitleskip}{12pt}
 
-\setlength{\cftbeforetoctitleskip}{16pt} 
+\setlength{\cftbeforetoctitleskip}{16pt}
 \renewcommand{\cftaftertoctitleskip}{12 pt}
 
 \DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
@@ -153,9 +152,9 @@
 % Cambiando las etiquetas de las FIGURAS y TABLAS (Caption y autoref)
 \addto\captionsspanish{\renewcommand{\figurename}{\normalsize Figura }}
 \addto\extrasspanish{\def\figureautorefname{ Figura }}
- 
+
 \addto\captionsspanish{\renewcommand{\tablename}{\normalsize Tabla }}
-\addto\extrasspanish{\def\tableautorefname{ Tabla }} 
+\addto\extrasspanish{\def\tableautorefname{ Tabla }}
 
 
 % Espaciamiento dentro del índice
@@ -202,11 +201,10 @@
 
 %Cambiando a Números Romanos los Capítulos
 \renewcommand{\thechapter}{\Roman{chapter}}
-\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}} 
-\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}  
-\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}  
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
-
 
 
 %Escribir los INFORMACIÓN PERSONAL Y DEL TRABAJO

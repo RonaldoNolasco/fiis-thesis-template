@@ -3,86 +3,86 @@
 \input{0_0_PREAMBULO/Preambulo}
 
 \begin{document}
-	
-	\renewcommand{\BOthers}[1]{et al.\hbox{}} %Agregar et al.
-	\onehalfspacing 	% Interlineado 1.5
-	\noindent			% Sin sangría
-		
-	%Parte INCIAL DE LA TESIS
-	
-	\frontmatter 
-		
-	\include{1_0_CARATULA/Caratula}
-	
-	\include{1_1_PERMISOS/Permisos}
 
-	\include{1_2_DEDICATORIA/Dedicatoria}
-	
-	\include{1_3_AGRADECIMIENTOS/Agradecimientos}
+    \renewcommand{\BOthers}[1]{et al.\hbox{}} %Agregar et al.
+    \onehalfspacing    % Interlineado 1.5
+    \noindent            % Sin sangría
 
-	\include{1_4_RESUMEN/Resumen}
-		
-	\include{1_5_ABSTRACT/Abstract}
+    %Parte INCIAL DE LA TESIS
 
-	\include{1_6_PROLOGO/Prologo}
-	
-	
-	%Cambiar nombre y crear ÍNDICE
-	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{ÍNDICE}
-	\renewcommand\contentsname{ÍNDICE}
-	\vspace*{3.25cm} % Equivalente a los 4cm
-	\tableofcontents
+    \frontmatter
 
-	% Lista de tablas
-	\renewcommand\listtablename{LISTA DE TABLAS} % Renombra el titulo de la lista de figuras
-	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE TABLAS} % Inserta el registro en el índice
-	%\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
-	\listoftables % Añade el espaciado e inserta la lista de tablas
+    \include{1_0_CARATULA/Caratula}
 
-	% Lista de figuras
-	\renewcommand\listfigurename{LISTA DE FIGURAS} % Renombra el titulo de la lista de figuras
-	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE FIGURAS} % Inserta el registro en el índice
-	%\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
-	\listoffigures % Añade el espaciado e inserta la lista de figuras
-	
-	\include{1_7_SIMBOLOS/Simbolos}
- 
- 
-	%Parte CENTRAL DE LA TESIS
-	
-	\mainmatter 
+    \include{1_1_PERMISOS/Permisos}
 
-	% PROBLEMÁTICA
-	\include{2_CAPITULO1/Capitulo1}
-	
-	% MARCO TEÓRICO
-	\include{2_CAPITULO2/Capitulo2}
-		
-	% ESTADO DEL ARTE
-	\include{2_CAPITULO3/Capitulo3}
-		
-	% CAPÍTULO 4
-	\include{2_CAPITULO4/Capitulo4}
+    \include{1_2_DEDICATORIA/Dedicatoria}
 
-	% CAPÍTULO 5
-	\include{2_CAPITULO5/Capitulo5}
+    \include{1_3_AGRADECIMIENTOS/Agradecimientos}
 
-	% CAPÍTULO 6
-	\include{2_CAPITULO6/Capitulo6}
-	
-	%Parte FINAL DE LA TESIS
-	\backmatter
+    \include{1_4_RESUMEN/Resumen}
 
-	% CONCLUSIONES
-	\include{3_1_CONCLUSIONES/Conclusiones}
-	
-	% RECOMENDACIONES	
-	\include{3_2_RECOMENDACIONES/Recomendaciones}
-	
-	% REFERENCIAS BIBLIOGRÁFICAS
-	\include{3_3_BIBLIOGRAFIA/Bibliografia}
-	
-	% ANEXOS	
-	\include{3_4_ANEXOS/Anexos}
-	
+    \include{1_5_ABSTRACT/Abstract}
+
+    \include{1_6_PROLOGO/Prologo}
+
+
+    %Cambiar nombre y crear ÍNDICE
+    \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{ÍNDICE}
+    \renewcommand\contentsname{ÍNDICE}
+    \vspace*{3.25cm} % Equivalente a los 4cm
+    \tableofcontents
+
+    % Lista de tablas
+    \renewcommand\listtablename{LISTA DE TABLAS} % Renombra el titulo de la lista de figuras
+    \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE TABLAS} % Inserta el registro en el índice
+    %\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
+    \listoftables % Añade el espaciado e inserta la lista de tablas
+
+    % Lista de figuras
+    \renewcommand\listfigurename{LISTA DE FIGURAS} % Renombra el titulo de la lista de figuras
+    \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{LISTA DE FIGURAS} % Inserta el registro en el índice
+    %\vspace*{3.6cm} % Equivalente a los 4cm (aqui no se debe poner)
+    \listoffigures % Añade el espaciado e inserta la lista de figuras
+
+    \include{1_7_SIMBOLOS/Simbolos}
+
+
+    %Parte CENTRAL DE LA TESIS
+
+    \mainmatter
+
+    % PROBLEMÁTICA
+    \include{2_CAPITULO1/Capitulo1}
+
+    % MARCO TEÓRICO
+    \include{2_CAPITULO2/Capitulo2}
+
+    % ESTADO DEL ARTE
+    \include{2_CAPITULO3/Capitulo3}
+
+    % CAPÍTULO 4
+    \include{2_CAPITULO4/Capitulo4}
+
+    % CAPÍTULO 5
+    \include{2_CAPITULO5/Capitulo5}
+
+    % CAPÍTULO 6
+    \include{2_CAPITULO6/Capitulo6}
+
+    %Parte FINAL DE LA TESIS
+    \backmatter
+
+    % CONCLUSIONES
+    \include{3_1_CONCLUSIONES/Conclusiones}
+
+    % RECOMENDACIONES
+    \include{3_2_RECOMENDACIONES/Recomendaciones}
+
+    % REFERENCIAS BIBLIOGRÁFICAS
+    \include{3_3_BIBLIOGRAFIA/Bibliografia}
+
+    % ANEXOS
+    \include{3_4_ANEXOS/Anexos}
+
 \end{document}
